@@ -869,9 +869,10 @@ body {
   background-image: url("../images/vector.svg");
   background-color: var(--accent-color);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   border: none;
   border-radius: 2px;
+  background-position: center;
 }
 
 .modal-form-checkbox:focus + .modal-form-checkbox-label::before {
